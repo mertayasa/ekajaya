@@ -12,7 +12,7 @@ const routes = [
 ];
 
 export default function RoutesSchedule() {
-  const phoneNumber = "6281237675881";
+  const phoneNumber = "6281337230430";
 
   const getWhatsAppLink = (destination: string) => {
     const message = `Hi Ekajaya, I want to book Lembongan to ${destination} on [date].`;

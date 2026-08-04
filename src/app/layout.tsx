@@ -13,10 +13,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ekajaya Lembongan | Fast Boat Transfers",
+  title: "Ekajaya Lembongan | Fast Ferry Transfers",
   description: "Reliable daily boat transfers from Nusa Lembongan to Gili Islands, Lombok, Padang Bai, and Nusa Dua. Book your fast boat via WhatsApp.",
   openGraph: {
-    title: "Ekajaya Lembongan | Fast Boat Transfers",
+    title: "Ekajaya Lembongan | Fast Ferry Transfers",
     description: "Reliable daily boat transfers from Nusa Lembongan to Gili Islands, Lombok, Padang Bai, and Nusa Dua.",
     type: "website",
     locale: "en_US",

@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <section className="relative h-screen min-h-[600px] flex items-center justify-center pt-20 overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: 'url(/hero-bg.png)' }}
       >
@@ -24,20 +24,20 @@ export default function HeroSection() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 tracking-tight">
-              Fast Boat Transfers from <span className="text-primary-light text-teal-400">Nusa Lembongan</span>
+              Fast Ferry Transfers from <span className="text-primary-light text-teal-400">Nusa Lembongan</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-200 mb-8 font-light">
               Reliable daily transfers to Gili Islands, Lombok, Padang Bai & Nusa Dua
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
-              <Link 
+              <Link
                 href="#routes"
                 className="bg-accent hover:bg-red-700 text-white px-8 py-4 rounded-full text-lg font-semibold text-center transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 Book via WhatsApp
               </Link>
-              <Link 
+              <Link
                 href="#why-us"
                 className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold text-center transition-all"
               >

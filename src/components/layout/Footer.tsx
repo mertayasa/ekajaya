@@ -8,13 +8,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 text-white font-bold text-2xl tracking-tighter mb-4">
-              <span className="text-accent">EKA</span>JAYA
+              <span>Ekajaya Fast ferry</span>
             </div>
             <p className="text-sm">
-              Reliable daily fast boat transfers from Nusa Lembongan to Gili Islands, Lombok, Padang Bai & Nusa Dua.
+              Reliable daily fast ferry transfers from Nusa Lembongan to Gili Islands, Lombok, Padang Bai & Nusa Dua.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
@@ -28,13 +28,13 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-sm">
-              <li>WhatsApp: +62 812-3767-5881</li>
-              <li>Open Daily: 07:00 - 21:00</li>
-              <li>Location: Jungut Batu Beach, Nusa Lembongan</li>
+              <li>WhatsApp: +62 813-3723-0430</li>
+              <li>Open Daily: 24 Hours Online Booking</li>
+              <li>Location: Yellow Bridge, Nusa Lembongan</li>
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-slate-800 mt-12 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} Ekajaya Lembongan. All rights reserved.</p>
         </div>

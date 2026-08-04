@@ -26,14 +26,14 @@ export default function HowToBook() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">How to Book</h2>
           <p className="text-lg text-primary-light max-w-2xl mx-auto opacity-90">
-            Booking your fast boat transfer is as simple as sending a text.
+            Booking your fast ferry transfer is as simple as sending a text.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center relative">
           {/* Connecting line for desktop */}
           <div className="hidden md:block absolute top-12 left-[15%] right-[15%] h-0.5 bg-white/20 z-0"></div>
-          
+
           {steps.map((step, index) => (
             <div key={index} className="relative z-10 flex flex-col items-center">
               <div className="w-24 h-24 bg-primary-dark border-4 border-white/20 rounded-full flex items-center justify-center mb-6 shadow-xl">
