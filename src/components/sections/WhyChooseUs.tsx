@@ -8,8 +8,8 @@ const benefits = [
     icon: <CalendarCheck size={32} className="text-primary" />
   },
   {
-    title: "Luxury & Comfortable Ferries",
-    description: "Modern luxury fast ferries with premium seating and spacious interiors.",
+    title: "Comfortable Ferries",
+    description: "Modern fast ferries with premium seating and spacious interiors.",
     icon: <Ship size={32} className="text-primary" />
   },
   {
@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Why Choose Ekajaya</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Experience the best luxury fast ferry service from Lembongan to Gili, Lombok, Padang Bai, and Nusa Dua with our top-tier facilities.
+            Experience the best comfortable fast ferry service from Lembongan to Gili, Lombok, Padang Bai, and Nusa Dua with our top-tier facilities.
           </p>
         </div>
 

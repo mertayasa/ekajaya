@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 
 const galleryImages = [
-  "/hero-bg.png",
-  "/hero-bg.png",
-  "/hero-bg.png",
-  "/hero-bg.png",
+  "/gallery/gallery.png",
+  "/gallery/gallery1.png",
+  "/gallery/gallery2.png",
+  "/gallery/gallery3.png",
 ];
 
 export default function Gallery() {
@@ -15,7 +15,7 @@ export default function Gallery() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Meet our Ekajaya Fast ferry</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Take a look at our modern, comfortable, and well-equipped fast boats.
+            Take a look at our modern, comfortable, and well-equipped fast ferries.
           </p>
         </div>
 
