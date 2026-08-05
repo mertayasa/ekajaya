@@ -11,7 +11,7 @@ export async function GET(request: NextRequest) {
 
   try {
     // Revalidate the cache tag associated with our Google Sheet fetch
-    revalidateTag('routes-schedule');
+    revalidateTag('routes-schedule', 'max');
     
     return NextResponse.json({ revalidated: true, now: Date.now() });
   } catch (err) {

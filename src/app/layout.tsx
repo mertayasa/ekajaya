@@ -13,14 +13,27 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ekajaya Lembongan | Fast Ferry Transfers",
-  description: "Reliable daily boat transfers from Nusa Lembongan to Gili Islands, Lombok, Padang Bai, and Nusa Dua. Book your fast boat via WhatsApp.",
+  title: "Ekajaya Lembongan | Luxury Fast Ferry Transfers",
+  description: "Experience premium comfort with our luxury fast ferry transfers from Nusa Lembongan to Gili Islands, Lombok, Padang Bai, and Nusa Dua.",
+  keywords: "luxury fast ferry lembongan, comfortable ferry to gili, premium boat lombok, padang bai fast ferry, nusa dua transfer",
+  icons: {
+    icon: "/logoekajaya.png",
+    apple: "/logoekajaya.png",
+  },
   openGraph: {
-    title: "Ekajaya Lembongan | Fast Ferry Transfers",
-    description: "Reliable daily boat transfers from Nusa Lembongan to Gili Islands, Lombok, Padang Bai, and Nusa Dua.",
+    title: "Ekajaya Lembongan | Luxury Fast Ferry Transfers",
+    description: "Experience premium comfort with our luxury fast ferry transfers from Nusa Lembongan to Gili Islands, Lombok, Padang Bai, and Nusa Dua.",
     type: "website",
     locale: "en_US",
     siteName: "Ekajaya Lembongan",
+    images: [
+      {
+        url: "/logoekajaya.png",
+        width: 800,
+        height: 600,
+        alt: "Ekajaya Lembongan Luxury Fast Ferry",
+      },
+    ],
   }
 };
 
@@ -34,7 +47,9 @@ export default function RootLayout({
       lang="en"
       className={`${outfit.variable} ${inter.variable} scroll-smooth antialiased`}
     >
-      <body className="min-h-full flex flex-col font-sans bg-sand text-slate-900">{children}</body>
+      <body className="min-h-full flex flex-col font-sans bg-sand text-slate-900" suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }

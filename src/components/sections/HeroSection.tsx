@@ -24,10 +24,10 @@ export default function HeroSection() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 tracking-tight">
-              Fast Ferry Transfers from <span className="text-primary-light text-teal-400">Nusa Lembongan</span>
+              Luxury Fast Ferry Transfers from <span className="text-primary-light text-teal-400">Nusa Lembongan</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-200 mb-8 font-light">
-              Reliable daily transfers to Gili Islands, Lombok, Padang Bai & Nusa Dua
+              Experience premium comfort with daily transfers to Gili Islands, Lombok, Padang Bai & Nusa Dua
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -52,7 +52,7 @@ export default function HeroSection() {
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-teal-400"></span>
-                Comfortable boats
+                Luxury & comfortable ferries
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-teal-400"></span>
