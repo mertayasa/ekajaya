@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -49,6 +50,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-sans bg-sand text-slate-900" suppressHydrationWarning>
         {children}
+        <Analytics />
       </body>
     </html>
   );
